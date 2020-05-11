@@ -1,1 +1,0 @@
-Simone Ferreira personal website
