@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/fontawesome-free-5.13.0-web/css/all.css"> 
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Simone Ferreira</title>
+</head>
+<body>
+  <header>
+    <div class="container-fluid fixed-top" style="background: rgb(51,58,86); background: linear-gradient(175deg, rgba(51,58,86,1) 0%, rgba(30,144,255,1) 100%); height: 80px;">
+      <div class="row fixed-top">
+        <div class="col-2">
+          <img src="/public/img/profilePicture.jpg" alt="Foto de Simone Ferreira" class="rounded-circle" style="width: 50px; margin: 15px;">
+        </div>
+        <div class="col-8 align-self-center">
+          <nav class="navbar navbar-dark justify-content-center">
+            <a class="nav-link text-uppercase active" style="color: 	#FFFFFF;" onmouseover="changeColor(this)" onmouseout="normalColor(this)" href="#home">Home</a>
+            <a class="nav-link text-uppercase" style="color: 	#FFFFFF;" onmouseover="changeColor(this)" onmouseout="normalColor(this)" href="#">About me</a>
+            <a class="nav-link text-uppercase" style="color: 	#FFFFFF;" onmouseover="changeColor(this)" onmouseout="normalColor(this)" href="#">Resume</a>
+            <a class="nav-link text-uppercase" style="color: 	#FFFFFF;" onmouseover="changeColor(this)" onmouseout="normalColor(this)" href="#">Portfolio</a>
+            <a class="nav-link text-uppercase" style="color: 	#FFFFFF;" onmouseover="changeColor(this)" onmouseout="normalColor(this)" href="#">Contact</a>
+          </nav>
+        </div>
+        <div class="col-2">
+          <nav class="nav justify-content-end" style="margin: 0 10px;">
+            <a href="index.html"><img src="/public/img/britishflag.png" alt="English" title="English" style="width: 25px; margin: 3px;"></a>
+            <a href="#"><img src="/public/img/brazilflag.png" alt="Portuguese" title="Portuguese" style="width: 25px; margin: 3px;"></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid" style="min-height: 500px; background-color: 	#F0F8FF;" id="banner">
+
+      <div class="row" id="home">  
+        <div class="introduction">
+          <h1>Hello! I'm Simone Ferreira and I'm a <strong>Web Developer</strong>.</h1>
+          <p>From some country city in Brazil, straight to a traditional pub in Dublin.  </p>   
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>&copy; Copyright 2020 | Simone Ferreira</footer>
+</body>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/bootstrap.bundle.min.js"></script>
+<script>
+  function changeColor(x) {
+  x.style.color = "#A9A9A9";
+}
+
+function normalColor(x) {
+  x.style.color= "#FFFFFF";
+}
+</script>
+
+</html>
