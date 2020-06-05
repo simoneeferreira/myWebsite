@@ -11,106 +11,180 @@
   </head>
   <body>
   <!--Header menu-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <!--Logo-->
-      <a href="#" class="navbar-brand "><img src="/public/img/profilePicture.jpg" alt="Simone Ferreira's photo" width="30" height="30"></a>
-      <!--Collapse menu responsive-->
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--pagination-->
-      <div id="menu" class="collapse navbar-collapse text-uppercase">
-        <ul class="navbar-nav ml-md-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"></i>Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <!--Search form-->
-          <form class="form-inline">
-            <div class="input-group">
-              <input type="text" placeholder="Search..." name="search" class="form-control">
-              <div class="input-group-append">
-                <button class="btn btn-outline-success" type="submit" value="submit"><i class="fas fa-search"></i></button>
-              </div>
-            </div>
-          </form>
-        </ul>
-      </div>
-    </nav>
+    <div class="container-fluid bg-dark align-self-center">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!--Logo-->
+        <a href="#" class="navbar-brand "><img src="/public/img/logo.png" alt="Simone Ferreira's photo" width="40" height="40"></a>
+        <span class="align-middle text-light text-uppercase">Simone Ferreira</span>
+        <!--Collapse menu responsive-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--pagination
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item ">
+              <a class="nav-link h3" href="#"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h3" href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h3" href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h3" href="#"><i class="fab fa-twitter-square"></i></a>
+            </li>
+          </ul>-->
+          <ul class="navbar-nav ml-md-auto text-lowe">
+            <li class="nav-item active">
+              <a class="nav-link"href="#"><i class="fas fa-map-marker-alt h5"></i> Dublin, Ireland</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <!--Introduction-->
     <div class="jumbotron jumbotron-fluid bg-info">
-      <div class="container container-fluid">
-        <h1 class="display-4">Hello World!</h1>
-        <p class="lead">I'm Simone Ferreira and I'm a Web Developer.</p>
-        <hr class="my-4">
-        <p>Always studying and learning to deliver the best work possible at the best quality possible. </p>
-        <a class="btn btn-dark btn-lg" href="#" role="button">See my Resume</a>
-      </div>
-    </div>
-    <!--Expertise-->
-    <div class="container">
-      <br>
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <div class="card border-0" style="width: 18rem;">
-            <img src="/public/img/Web_foundations_word_cloud.svg" class="card-img-top" height="200" alt="">
-            <div class="card-body">
-              <h5 class="card-title">FrontEnd</h5>
-              <p class="card-text">Bringing a concept to life with HTML, CSS, and JavaScript, prioritizing user experience.</p>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="/public/img/profilePicture.jpg" alt="Simone Ferreira's photo" class="img-thumbnail rounded-circle" width="300px" height="300px">
           </div>
-        </div>
-        <div class="col-lg-4 text-center">
-          <div class="card border-0" style="width: 18rem;">
-            <img src="/public/img/responsive_design.svg" class="card-img-top" height="200" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Responsive</h5>
-              <p class="card-text">Creating tools that enhance interaction with the site in any browser and  mobile devices.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 text-center">
-          <div class="card border-0" style="width: 18rem;">
-            <img src="/public/img/maintenance.png" class="card-img-top"  height="200" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Maintenance</h5>
-              <p class="card-text">Maintenance of websites , testing the site for usability and fixing any bugs.</p>
-            </div>
+          <div class="col-lg-8">
+            <h1 class="display-4">Hello World!</h1>
+            <p class="lead">I'm Simone Ferreira and I'm a Web Developer.</p>
+            <hr class="my-4">
+            <p>Always studying and learning to deliver the best work at the best quality possible. </p>
+            <a class="btn btn-primary bg-secondary border-0" href="/download/Resume-Simone-Ferreira.pdf" target="_blank" role="button"><i class="fas fa-download"></i> My Resume</a>
+            <a class="btn btn-primary bg-secondary border-0" href="mailto:simoneef1986@gmail.com" target="_blank" role="button"><i class="fas fa-envelope"></i> Contact me</a>
           </div>
         </div>
       </div>
     </div>
-    <!--Divider-->
-    <div class="container">
-      <hr class="featurette-divider">
-    </div>
-    <!--Portfolio-->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
 
+    <!--Skills-->
+    <div class="container-fluid mb-5" >
+      <div class="row justify-content-center" style="background-color: white">
+        <h2 class=" m-4 col-lg-12 text-center text-uppercase"><b>Skills</b></h2>
+        <div class="col-lg-3 col-sm-12">
+          <div class="skills">
+            <p class="text-center text-uppercase">Professional skills</p>
+            <ul class="m-auto">
+              <li><span class="html5"></span><em><i class="fab fa-html5"></i> HTML5</em></li>
+              <li><span class="css3"></span><em><i class="fab fa-css3-alt"></i> CSS3</em></li>
+              <li><span class="js"></span><em><i class="fab fa-js-square"></i> Javascript</em></li>
+              <li><span class="jquery"></span><em><i class="fas fa-file-code"></i> jQuery</em></li>
+              <li><span class="bootstrap"></span><em><i class="fab fa-bootstrap"></i> Bootstrap</em></li>
+            </ul> 
+          </div>            
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-5 col-sm-12">
+          <div class="skills m-auto text-center">
+            <p class="text-uppercase">Additional skills</p>
+            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart-background" stroke="#cccccc" stroke-width="0.45" stroke-dasharray="100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart-circle" stroke="#3CA3B8" stroke-width="2" stroke-dasharray="80" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart-info"><text class="circle-chart-percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="4">80%</text>
+            <text class="circle-chart-subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="5">English</text></g></svg>
 
+            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart-background" stroke="#cccccc" stroke-width="0.45" stroke-dasharray="100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart-circle" stroke="#3CA3B8" stroke-width="2" stroke-dasharray="70" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart-info"><text class="circle-chart-percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="4">70%</text>
+            <text class="circle-chart-subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="5">Teamwork</text></g></svg>
+      
+            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart-background" stroke="#cccccc" stroke-width="0.45" stroke-dasharray="100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart-circle" stroke="#3CA3B8" stroke-width="2" stroke-dasharray="90" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart-info"><text class="circle-chart-percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="4">90%</text>
+            <text class="circle-chart-subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="5">Creativity</text></g></svg>     
+          </div>
+          <table class="table table-borderless m-auto text-center">
+            <tr>
+              <td><i class="far fa-check-square" style="color: #3CA3B8;"></i> Team Leadership</td>
+              <td><i class="far fa-check-square" style="color: #3CA3B8;"></i> Troubleshooting</td>
+              <td><i class="far fa-check-square" style="color: #3CA3B8;"></i> GitHub</td>
+            </tr>
+            <tr>
+              <td><i class="far fa-check-square" style="color: #3CA3B8;"></i> Customer Support</td>
+              <td><i class="far fa-check-square" style="color: #3CA3B8;"></i> Communication</td>
+              <td><i class="far fa-check-square" style="color: #3CA3B8;"></i> Presentation Skills</td>
+            </tr>
+          </table>
         </div>
-
       </div>
+      <!--Education-->
 
+      <div class="row justify-content-center">
+        <h2 class="m-5 col-lg-12 text-center text-uppercase"><b>Education</b></h2>
+        <div class="card mb-3 card-1 col-lg-6 col-sm-12 m-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="public/img/funcesi.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Information System</h5>
+                <h5 class="card-title">2012 - 2015</h5>
+                <p class="card-text">The Bachelor of Information Systems is proeficient in many subjects, including: <br>
+                - Programming logic; <br>
+                - Object orientend programming; <br>
+                - Web development; <br>
+                - Network Administration; <br>
+                - Project management.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 card-1 col-lg-6 col-sm-12 m-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="public/img/Senac.jpg" class="card-img" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <h5 class="card-title">2019</h5>
+                <p class="card-text">This course covered the following topics: <br>
+                  - Code architecture of web documents written in HTML & CSS; <br>
+                  - Add and analyze code behavior and interaction with JavaScript; <br>
+                  - Code with PHP interacting with MySQL; <br>
+                  - Design and structure MySQL databases.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-
+   
+    <!--Experience-->
     
+    <footer>
+      
+      <div class="container-fluid bg-dark">
+        <nav class="navbar fixed-bottom bg-dark text-light justify-content-center">
+          
+          <p>&copy; Copyright 2020 | Simone Ferreira</p>
 
-    <footer>&copy; Copyright 2020 | Simone Ferreira</footer>
+        </nav>
+      </div>
+    </footer>
   </body>
   <!--JS-->
   <script src="/public/js/jquery.js"></script>
   <script src="/public/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var svg = document.querySelector('.circle-chart-circle');
+    att = svg.getAttribute('stroke-dasharray');
+    text = document.querySelector('text.circle-chart-percent');
+
+    if (att === '100') {
+    text.textContent = 'full';
+    }
+    else {
+    text.textContent = att + '%';
+    }
+  </script>
 </html>
