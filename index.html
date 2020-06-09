@@ -20,33 +20,20 @@
         <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <!--pagination
+        
         <div id="menu" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-md-auto">
-            <li class="nav-item ">
-              <a class="nav-link h3" href="#"><i class="fab fa-github-square"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link h3" href="#"><i class="fab fa-linkedin"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link h3" href="#"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link h3" href="#"><i class="fab fa-twitter-square"></i></a>
-            </li>
-          </ul>-->
-          <ul class="navbar-nav ml-md-auto text-lowe">
-            <li class="nav-item active">
-              <a class="nav-link"href="#"><i class="fas fa-map-marker-alt h5"></i> Dublin, Ireland</a>
-            </li>
-          </ul>
+          <div class="navbar-nav ml-md-auto btn-group " role="group">
+            <a  class="btn btn-dark" href="https://github.com/simoneeferreira"><i class="fab fa-github" style="font-size: 24px;"></i></a>
+            <a  class="btn btn-dark" href="https://www.linkedin.com/in/simoneeferreira/"><i class="fab fa-linkedin-in" style="font-size: 24px;"></i></a>
+            <a  class="btn btn-dark" href="https://www.facebook.com/simone.ferreira.58152"><i class="fab fa-facebook" style="font-size: 24px;"></i></a>
+            <a  class="btn btn-dark" href="https://twitter.com/simoneeferreira"><i class="fab fa-twitter" style="font-size: 24px;"></i></a>
+          </div>
         </div>
       </nav>
     </div>
-    <!---------------------------------------------------------------------------------------Introduction-->
-    <div class="jumbotron jumbotron-fluid bg-info">
-      <div class="container">
+    <!---------------------------------------------------------------------------------------Introduction--> 
+    <div class="jumbotron jumbotron-fluid mb-0  bg-info">
+     <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <img src="/public/img/profilePicture.jpg" alt="Simone Ferreira's photo" class="img-thumbnail rounded-circle" width="300px" height="300px">
@@ -61,12 +48,15 @@
           </div>
         </div>
       </div>
+      
     </div>
+    <div style="height: 150px; position: relative; z-index: 10000; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,112.98 C149.99,150.00 271.49,-49.98 501.41,117.92 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #3CA3B8"></path></svg></div>
+    
     <!-----------------------------------------------------------------------End of jumbotron-->
 
     <div class="container-fluid mb-5" >
       <!------------------------------------------------------------------------------------------------------------Skills-->
-      <div class="row justify-content-center bg-light">
+      <div class="row justify-content-center">
         <h2 class=" m-4 col-lg-12 text-center text-uppercase"><b>Skills</b></h2>
         <div class="col-lg-3 col-sm-12">
           <div class="skills">
@@ -119,9 +109,9 @@
 
       <div class="row justify-content-center mb-5">
         <h2 class=" m-4 col-lg-12 text-center text-uppercase"><b>Education</b></h2>
-        <div class="card mb-3 card-1 col-lg-6 col-sm-12 m-3">
+        <div class="card mb-3 card-1 col-lg-8 col-sm-12 m-3">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-2">
               <img src="public/img/funcesi.png" class="card-img" alt="Funcesi's photo">
             </div>
             <div class="col-md-8">
@@ -139,9 +129,9 @@
             </div>
           </div>
         </div>
-        <div class="card mb-3 card-1 col-lg-6 col-sm-12 m-3">
+        <div class="card mb-3 card-1 col-lg-8 col-sm-12 m-3">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-2">
               <img src="public/img/Senac.jpg" class="card-img" alt="">
             </div>
             <div class="col-md-8">
@@ -161,7 +151,7 @@
       </div>
 
       <!---------------------------------------------------------------------------------------Experience-->
-      <div class="row justify-content-center mb-3 bg-light" >
+      <div class="row justify-content-center mb-3" >
         <h2 class=" m-4 col-lg-12 text-center text-uppercase"><b>Professional Experience</b></h2>
         <ul class="timeline col-lg-8">
           <li>
@@ -228,18 +218,51 @@
           <li class="clearfix no-float"></li>
         </ul>
       </div>
+      <!------------------------------------------------------------------------------------Portfolio-->
+      <div class="row justify-content-center">
+        <h2 class=" m-4 col-lg-12 text-center text-uppercase"><b>Portfolio</b></h2>
+        <div class="flip-3d">
+          <figure>
+            <img src="/public/img/Screenshot from 2020-06-09 11-26-23.png" alt>
+            <figcaption><a class="text-info" href="https://cleanenergy.rio.br/" target="_blank">Clean Energy</a></figcaption>
+          </figure>
+        </div>
+          
+        <div class="flip-3d">
+          <figure>
+            <img src="/public/img/Screenshot from 2020-06-09 11-32-32.png" alt>
+            <figcaption><a class="text-info" href="https://andremmfaria.kantaros.net/" target="_blank">Andre Faria</a></figcaption>
+          </figure>
+        </div>      
+      </div>     
     </div>
       <!-------------------------------------------------------------------------------------------Footer-->
-    <footer>
-      <!------------------------------------------------------------------------------------Social Media-->
-    
+      <footer class="container-fluid">
+        <div class="row">
+          <svg class="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 68-18s 58 18 88 18 58-18 98-5 58 18 88 18 v44h-352z" />
+            </defs>
+            <g>
+              <use xlink:href="#gentle-wave" x="55" y="0" fill="rgba(60, 163, 184, 0.6)"/>
+              <use xlink:href="#gentle-wave" x="48" y="2" fill="rgba(60, 163, 184, 0.6)"/>
+              <use xlink:href="#gentle-wave" x="50" y="4" fill="rgba(60, 163, 184, 1)"/>  
+            </g>
+          </svg>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <div class="btn-group  btn-group-lg" role="group">
+            <a  class="btn btn-info" href="https://github.com/simoneeferreira"><i class="fab fa-github" style="font-size: 32px;"></i></a>
+            <a  class="btn btn-info" href="https://www.linkedin.com/in/simoneeferreira/"><i class="fab fa-linkedin-in" style="font-size: 32px;"></i></a>
+            <a  class="btn btn-info" href="https://www.facebook.com/simone.ferreira.58152"><i class="fab fa-facebook" style="font-size: 32px;"></i></a>
+            <a  class="btn btn-info" href="https://twitter.com/simoneeferreira"><i class="fab fa-twitter" style="font-size: 32px;"></i></a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <p>Copyright &copy; 2020  Simone Ferreira. All Rights Reserved</p>
+        </div>
+      </footer>
       
-      <div class="container-fluid bg-dark">
-        <nav class="navbar bg-dark text-light justify-content-center">
-          <p>&copy; Copyright 2020 | Simone Ferreira</p>
-        </nav>
-      </div>
-    </footer>
   </body>
   <!--JS-->
   <script src="/public/js/jquery.js"></script>
