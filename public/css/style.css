@@ -333,6 +333,12 @@ body{
     }
 }
 
+/*------------------------------------------------Certifications*/
+.img{
+  max-width: 70px;
+  margin: auto;
+}
+
 /*------------------------------------------------Portfolio*/
 div .iframe{
   min-height: 400px;
