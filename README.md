@@ -1,2 +1,2 @@
 # myWebsite
-https://simoneferreira.kantaros.net/
+https://simoneeferreira.kantaros.net/
